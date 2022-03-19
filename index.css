@@ -1,0 +1,541 @@
+
+li
+{
+    list-style-type: none;
+}
+#NAVBAR
+{
+    position: fixed;
+    background-color: white;
+    height: 70px;
+    width: 2000px;
+    margin-top: -10px;
+    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.17);
+    padding-left: 200px;
+    margin-left: -200px;
+}
+h1.globalcomp
+{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 0;
+    height: 101px;
+    width: 290px;
+    margin-left: 26px;
+    font-size: 26px;
+    display: block;
+    color: #19D1B8;
+}
+
+#logoX1
+{
+    justify-content: left;
+    height: 33px;
+    width: 268px;
+    display: inline-block;
+    margin-left: 180px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/*nav 1st */
+#nbx1
+{
+    
+    display: flex;
+    justify-content:space-around;
+    padding-left: 900px;
+    margin: -25px;
+    margin-right: 370px;
+    font-size: 15px;
+    font-weight: 300px;
+    line-height: 30px;
+    font-family: Roboto, Arial, sans-serif;
+    height: 69.875px;
+    width: 251.641px;
+    color: #ABABAB;
+    cursor: pointer;
+}
+/* nav/nav */ 
+
+ul.nbx2
+{
+    display: none;
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    padding: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 30px;
+    color: #ABABAB;
+    background-color: white;
+    box-shadow: 1px 7px 10px 2px rgba(105,105,105,0.55);
+}
+
+#dep:hover .nbx2
+{
+    display: block;
+    font-family: Roboto, Arial, sans-serif;
+    position: absolute;
+    height: 220px;
+    width: 220px;
+}
+
+
+li.aboutus
+{
+    color: #00BFA5;
+}
+
+#career
+{
+    display: block;
+    color: #00BFA5;
+
+}
+
+li.MndPR
+{
+    padding: 6x;
+    margin-right: 20px;
+}
+li.MndPR:hover
+{
+    color: #00BFA5; 
+}
+li.CuSS:hover
+{
+    color: #00BFA5; 
+}
+li.IT:hover
+{
+    color: #00BFA5; 
+}
+li.Fadmin:hover
+{
+    color: #00BFA5; 
+}
+li.HRv:hover
+{
+    color: #00BFA5; 
+}
+/* para */ 
+
+#lowgo
+{
+    width: 40px;
+    height: 39px;
+    margin-left: 640px;
+}
+#hcm
+{
+    display: block;
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 34px;
+    
+    color: #00B39B;
+    
+    text-align: center;
+    
+}
+div.paras
+{
+    display: flex;
+}
+div.paras p.paraA
+{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 112px;
+    width: 477px;
+    margin: 13px;
+    color: #747474;
+    padding-left: 166px;
+    padding-top: 25px;   
+}
+div.paras p.paraB
+{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 112px;
+    width: 477px;
+    color: #747474;
+    margin: 13px;
+    padding-top: 25px;  
+}
+
+
+/* x2 o block */
+section.sectiontwo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    justify-content:space-evenly;
+    padding-top: 90px;
+}
+
+/* block 1 */ 
+div.gb
+{
+    background-color: #00CCB1;
+    height: 305px;
+    width: 250px;
+    padding: 32px;
+    padding-bottom: 0px;
+    margin-left: 110px;
+    border-radius: 10px;
+    
+}
+
+div.gb #nes
+{
+    color: white;
+    font-size: 24px;
+}
+div.gb h2.forpatients
+{
+   color: white;
+   font-family: Roboto, Arial, sans-serif;
+   font-size: 26px;
+
+   
+}
+
+div.gb h2.findadoc
+{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 0;
+}
+
+div.dswich select
+{
+    font-size: 19.2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: #00CCB1;
+    border-radius: 0px;
+    border: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;  
+   
+}
+div.dswich option
+{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+li.C-C
+{
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-top: 45px;
+
+}
+/* block 2 */
+div.bb
+{
+    background-color: #508FE2;
+    height: 305px;
+    width: 250px;
+    padding: 32px;
+    padding-bottom: 0px;
+    /*margin-left: 530px;*/
+    border-radius: 10px;
+}
+
+#dr
+{
+    font-size: 24px;
+    color: white;
+}
+
+div.bb h1.fordoctors
+{
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 0;
+}
+
+div.bb h2.savetime
+{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 0;
+}
+
+div.bswich select
+{
+    font-size: 19.2px;
+    margin-top: 55px;
+    text-decoration: none;
+    background-color: #508FE2;
+    border-radius: 0px;
+    border: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;  
+}
+div.bswich option
+{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+/* block 3 */ 
+div.zb
+{
+    background-color: #1B2734;
+    width: 250px;
+    padding: 32px;
+    margin-right: 150px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+div.zb h1
+{
+    font-family: Roboto, Arial, sans-serif;
+}
+div.zb h2
+{
+    font-family: Work Sans, sans-serif;
+
+}
+#sbitar
+{
+    font-size: 24px;
+}
+div.zswich select
+{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ text-decoration: none;
+ background-color: #1B2734;
+ border-radius: 0px;
+ border: none;
+ font-family: Roboto, Arial, sans-serif;
+ font-size: 20px;
+ text-decoration: underline;
+ color: white;  
+}
+div.zswich option
+{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+div.zswichh select
+{
+    text-decoration: none;
+    background-color: #1B2734;
+    border-radius: 0px;
+    border: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;  
+}
+div.zswichh option
+{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+}
+/* x3 o block */ 
+
+div.logowet
+{
+    padding-left: 20px;
+    height: 20px;
+    width: auto;
+    padding-top: 50px;
+}
+
+/* x4 o block */ 
+div.rthsection img.nejma
+{
+    width: 500px;
+    margin-top: 62px;
+}
+div.rthsection
+{
+    display: flex;
+    background-color: #D4F5F5;
+    height: 600px;
+    width: 1341px;
+}
+/* SQUARES 1/2/3  */
+#squares0
+{
+    display: block;
+}
+#squares1
+{
+    display: block;
+    padding-left: 20px;
+    margin-top: 45px;
+}
+#squares2
+{
+    display: block;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-right: -150px;
+    margin-top: 1px;
+}
+/* ************************ */
+h1.wbhp
+{
+    color: #00B39b;
+    font-family: "Work Sans", Arial, sans-serif;
+    height: 88px;
+    width: 250px;
+    font-size: 34px;
+    margin-left: 192px;
+}
+h2.wwf
+{
+    color: #747474;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    height: 48px;
+    width: 390px;
+    font-weight: 400px;
+    margin-left: 192px;
+    font-weight: 600;
+}
+div.rthsection h1 
+{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 0;
+    color: #00B39b;
+}
+div.rthsection h2
+{
+    font-size: 13px;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 16.9px;
+    color: #747474;
+
+}
+/* ELEMENTS */ 
+div.WBHP
+{
+   
+}
+#LIC
+{
+   height: 220px;
+   width: 210px;
+   background-color: white;
+   display: block;
+   padding: 15px;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 4px 0px;
+   text-align: center; 
+   margin-right: 10px;
+   margin-bottom: 25px;
+}
+
+#Appointement
+{
+    height: 220px;
+    width: 210px;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 4px 0px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+#patients
+{
+    height: 220px;
+    width: 210px;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 4px 0px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -16px;
+}
+
+#AD
+{
+    height: 220px;
+    width: 210px;
+    background-color: white;
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 4px 0px;
+    text-align: center;
+    
+    
+}
+/* ****************************** */ 
+/* /* section Discover */
+/* Div PART1 */ 
+
+div.partone h1
+{
+    font-family: Work Sans, Arial, sans-serif;
+    color:#00B3B0 ;
+    font-size: 30px;
+    height: 78px;
+    width: 460px;
+    text-align: center;
+}
+div.partone p
+{
+    color: #747474;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    height: 72px;
+    width: 460px;
+    text-align: center;
+}
+
+div.partone
+{
+    display: block;
+    margin-top: 110px;
+}
+
+/* div PARTTWO */
+
+div.office
+{
+ display: flex;
+ justify-content:space-evenly;
+}
+
+div.office__desc
+{
+
+}
